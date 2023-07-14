@@ -1,0 +1,19 @@
+{
+  "name": "setupandtsconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
+  }
+}
