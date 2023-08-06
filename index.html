@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login and Registration</title>
+  <style>
+    /* Some basic CSS for better presentation */
+    label {
+      display: block;
+    }
+    input {
+      margin-bottom: 10px;
+    }
+    #name-field {
+      display: none;
+    }
+
+    #submit-register-btn {
+      display: none;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Welcome to our Website</h1>
+  <div>
+    <button id="login-btn">Login</button>
+    <button id="register-btn">Register</button>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required><br>
+    <div id="name-field">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br>
+    </div>
+    <button id="submit-login-btn">Submit To Login</button>
+    <button id="submit-register-btn">Submit To Register</button>
+  </div>
+  <script src="login.js" type="module"></script>
+  <script src="userModel.js" type="module"></script>
+</body>
+</html>
